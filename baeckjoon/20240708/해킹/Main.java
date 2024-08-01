@@ -1,3 +1,5 @@
+// https://www.acmicpc.net/problem/10282
+
 import java.util.*;
 import java.io.*;
 
