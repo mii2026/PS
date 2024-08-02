@@ -1,2 +1,2 @@
-# baeckjoon
-백준 문제 풀이
+# PS
+PS 문제 풀이
