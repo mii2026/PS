@@ -15,7 +15,7 @@ class Main {
         }
 
         int minCost = 1000000000;
-        int answer = 0;
+        long answer = 0;
         st = new StringTokenizer(br.readLine());
         for(int i = 0; i < n - 1; i++) {
             int cost = Integer.valueOf(st.nextToken());
@@ -24,7 +24,7 @@ class Main {
                 minCost = cost;
             }
 
-            answer += minCost * distances[i];
+            answer += (long) minCost * distances[i];
         }
 
         System.out.print(answer);
